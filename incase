@@ -1,0 +1,331 @@
+  <!--================================================================                            End About Section ============================================================== -->
+
+        <!--====================================================================                ===== Start Services section ============================================================== -->
+        <section class="service section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padding  ">
+                        <h2 class="margin-bottom">Services</h2>
+                    </div>
+                </div>
+                <div class="row flex flex-col">
+                    <div class="flex-row-wrap">
+                        <!-- Service Item Begins for html tag -->
+                        <div class="service-item">
+                            <div style="padding: 5px; background: linear-gradient(to bottom right, #DBDFE4, #FDFCFF)"
+                                class="service-item-inner">
+                                <div class="service-item-inner-image">
+                                    <img src="./images/assets/about01.png"></img>
+                                </div>
+                                <div class="service-item-inner-content" style="margin:2rem 0 ;">
+                                    <h4>Web Design</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam architecto
+                                        mollitia sapiente recusandae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Service Item Ends -->
+
+                        <!-- Service Item Begins -->
+                        <div class="service-item">
+                            <div style="padding: 5px; background: #d7d7d9;" class="service-item-inner">
+                                <div class="service-item-inner-image">
+                                    <img src="./images/assets/about02.png"></img>
+                                </div>
+                                <div class="service-item-inner-content" style="margin:2rem 0 ;">
+                                    <h4>Web Design</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam architecto
+                                        mollitia sapiente recusandae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Service Item Ends -->
+
+                        <!-- Service Item Begins for bullhorn-->
+                        <div class="service-item">
+                            <div style="padding: 5px; background: #e0e0e0;" class="service-item-inner">
+                                <div class="service-item-inner-image">
+                                    <img src="./images/assets/about03.png"></img>
+                                </div>
+                                <div class="service-item-inner-content" style="margin:2rem 0 ;">
+                                    <h4>Web Design</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam architecto
+                                        mollitia sapiente recusandae.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Service Item Ends -->
+                        <!-- Service Item Begins -->
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam architecto
+                                    mollitia sapiente recusandae.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item Ends -->
+
+                        <!-- Service Item Begins -->
+                        <div class="service-item ">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam architecto
+                                    mollitia sapiente recusandae.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item Ends -->
+
+                        <!-- Service Item Begins -->
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam architecto
+                                    mollitia sapiente recusandae.</p>
+                            </div>
+                        </div>
+                        <!-- Service Item Ends -->
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--====================================================================                ===== End Services section ============================================================== -->
+
+
+        <!--====================================================================                ===== Start Portfolio section ============================================================== -->
+
+        <section class="portfolio section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padding  ">
+                        <h2 class="margin-bottom">Portfolio</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-heading padding">
+                        <h2>MY RECENTS </h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="portfolio-flex-row-wrap">
+                            <!-- start portfolio  items -->
+                            <div class="portfolio-item padding">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="./images/portfolio/Screenshot (122).png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end portfolio  items -->
+
+                            <!-- start portfolio  items -->
+                            <div class="portfolio-item padding">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="./images/portfolio/Screenshot (34).png " alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end portfolio  items -->
+
+                            <!-- start portfolio  items -->
+                            <div class="portfolio-item padding">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="./images/portfolio/Screenshot (36).png " alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end portfolio  items -->
+
+                            <!-- start portfolio  items -->
+                            <div class="portfolio-item padding">
+                                <div class="portfolio-item-inner shadow-dark">
+                                    <div class="portfolio-img">
+                                        <img src="./images/portfolio/Screenshot (38).png " alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end portfolio  items -->
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--====================================================================                ===== End Portfolio section ============================================================== -->
+
+
+        <!--====================================================================                ===== Start Contact section ============================================================== -->
+        <section class="contact section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="section-title padding  ">
+                        <h2 class="margin-bottom">Contact Me</h2>
+                    </div>
+                </div>
+
+                <h3 class="contact-title">
+                    Have u a personal or group project you wish to pull off?
+                </h3>
+                <h4 class="contact-subtitle">
+                    I'm at your service ✅
+                </h4>
+                <div class="row">
+                    <div class="contact-flex-row-wrap">
+                        <!-- start contact-info item -->
+                        <div class="contact-info-item padding">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call me on</h4>
+                            <p><a href="tel:+234 9139278215">+234 9139278215</a></p>
+                        </div>
+                        <!-- end contact-info item -->
+
+                        <!-- start contact-info item -->
+                        <div class="contact-info-item padding">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Office</h4>
+                            <p>Verbum Networks Enugu Nigeria</p>
+                        </div>
+                        <!-- end contact-info item -->
+
+                        <!-- start contact-info item -->
+                        <div class="contact-info-item padding">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>E-mail</h4>
+                            <p><a href="mailto:danielnwogu05@gmail.com">danielnwogu05@gmail.com</a></p>
+                        </div>
+                        <!-- end contact-info item -->
+                    </div>
+
+                </div>
+
+                <section class="sectionNewsletter">
+                    <div class="newsletterDiv1">
+                        <h1>GET IN TOUCH</h1>
+                        <h4>INTERESTED IN WORKING WITH ME?, FEEL FREE TO REACH ME FOR ANY FRONT-END PROJECT OR
+                            COLLABORATION</h4>
+                    </div>
+                    <div class="newsletterDiv2">
+                        <form action="" method="post">
+                            <label for="Name">
+                                <input type="text" placeholder="Name" id="name" name="name">
+                            </label>
+                            <label for="email">
+                                <input type="email" placeholder="email" id="email" name="email">
+                            </label>
+                            <label for="subject">
+                                <input type="text" placeholder="subject" id="subject" name="subject"> <br>
+                            </label>
+                            <label for="message">
+                                <textarea name="message" id="message" placeholder="message"></textarea> <br> <br>
+                            </label>
+                            <button>Submit</button>
+                        </form>
+                    </div>
+                </section>
+
+                <section class="newsletter section-padding">
+                    <!-- <div class="newstext">
+                            <h4>Leave a message</h4>
+                            <p>Get E-mail about our updates latest products and <span> special offers</span></p>
+                        </div> -->
+                    <!-- contact form -->
+                    <!-- <div class="form">
+                            <div class="row">
+                                <div class="contact-form padding">
+                                    <div class="row">
+                                        <div class="form-item col-6 padding">
+                                            <form action="">
+                                                <div class="form-group">
+                                                    <input type="text" name="name" placeholder="Name"
+                                                        class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                        <div class="form-item col-6 padding">
+                                            <form action="">
+                                                <div class="form-group">
+                                                    <input type="email" name="e-mail" placeholder="e-mail"
+                                                        class="form-control">
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="form-item col-12 padding">
+                                                <form action="">
+                                                    <div class="form-group">
+                                                        <input type="text" name="subject" placeholder="Subject"
+                                                            class="form-control">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="form-item col-12 padding">
+                                                <form action="">
+                                                    <div class="form-group">
+                                                        <textarea name="" class="form-control"
+                                                            placeholder="Message"></textarea>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="form-item col-12 padding">
+                                                <button type="button" class="btn btn-outline btn-lg py-30">Large
+                                                    button</button>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                </section>
+
+            </div>
+        </section>
+        <!--====================================================================                ===== End Contact section ============================================================== -->
+
+        <!-- I'll get back to you later -->
+                            <!-- <div class="tab-titles">
+                <p class="tab-links active-link">Skills</p>
+                <p class="tab-links">Experience</p>
+                <p class="tab-links">Education</p>
+            </div>
+            <div class="tab-content">
+                <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                <li><span>Dynamic Website</span><br> Web Development</li>
+                <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                <div class="skills-image">
+                    <img src="./images/assets/html.png" alt="html5 logo">
+                    <img src="./images/assets/css.png" alt="css logo">
+                    <img src="./images/assets/javascript.png" alt="javascript logo">
+                    <img src="./images/assets/git.png" alt="github logo">
+                </div>
+            </div>
+        </div>
+
+-->
+                            <!-- I'll get back to you later -->
