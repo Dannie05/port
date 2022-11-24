@@ -363,6 +363,10 @@ body.dark {
 h3.hello {
     font-size: 1.8em;
     margin: 10px 0;
+    /* -webkit-background-clip: text; */
+    color: var(--text-black-700);
+    /* -webkit-text-fill-color: transparent; */
+
 }
 
 h3.myProfession {
@@ -370,8 +374,13 @@ h3.myProfession {
 }
 
 h3.hello span {
-    color: var(--signature-color);
-    font-weight: 900;
+    font-size: 1.2em;
+    margin: 10px 0;
+    background:linear-gradient(to right, var(--skin-color), var(--text-black-700));
+    -webkit-background-clip: text;
+    color: black;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .typing {
