@@ -14,6 +14,11 @@ window.addEventListener('scroll', ()=>{
         document.querySelector(".style-switcher").classList.remove("open");
  
     }
+
+    if (document.querySelector(".mobile-navbar").classList.contains("hidden")) {
+        document.querySelector(".mobile-navbar").classList.add("hidden")        
+        
+    }
 });
 
 // ==============================theme colors=======================================

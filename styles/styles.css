@@ -183,6 +183,7 @@ body.dark {
     min-height: 70vh;
     flex-direction: column;
     margin-top: 6rem;
+    
 }
 
 .aside .hamburger {
@@ -327,6 +328,7 @@ body.dark {
     display: flex;
     color: var(--text-black-900);
     background: url(../images/assets/bgWhite.png);
+    /* background-color: red; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -845,7 +847,7 @@ h3.hello span {
 /*========================================================================================END PORTFOLIO============================================================ */
 
 /*========================================================================================Start Contact============================================================ */
-.contact {
+#contact {
     /* background: url(../images/assets/3040791.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -893,8 +895,9 @@ h3.hello span {
 .contact .contact-info-item h4 {
     font-size: 22px;
     font-size: 700;
-    color: var(--text-black-900);
+    color: var(--skin-color);
     margin: 15px 0 5px;
+    text-decoration: underline;
 }
 
 .contact .contact-info-item p {
@@ -911,7 +914,6 @@ h3.hello span {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    /* background-image: url(../images/assets/3040791.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: lighten;

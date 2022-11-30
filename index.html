@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./styles/animations.css">
     <link rel="stylesheet" href="./styles/newsletter.css">
     <link rel="stylesheet" href="./styles/skins/color-1.css">
+    <link rel="stylesheet" href="../../Bredan website/fonts/font-awesome/css/all.min.css">
+    
+
     <!-- =================================== Style Switcher======================================= -->
     <link rel="stylesheet" href="./styles/skins/color-1.css" class="alternate-style" title="color-1" disabled>
 
@@ -529,7 +532,7 @@
                             <label for="message">
                                 <textarea name="message" id="message" placeholder="message"></textarea> <br> <br>
                             </label>
-                            <button>Submit</button>
+                            <button class="form_btn">Submit</button>
                         </form>
                     </div>
                 </section>
@@ -601,23 +604,25 @@
             </div>
         </section>
         <!--====================================================================                ===== End Contact section ============================================================== -->
+        <div class="mobile-navbar hidden">
+            <div class="navDiv">
+                <ul id="navbar">
+                    <li><i class="fa-solid fa-house"></i><a class="active home-link" href="#">Home</a> </li>
+
+                    <li><i class="fa-solid fa-user"></i><a href="#About" class="about-link">About</a> </li>
+
+                    <li><i class="fa-solid fa-globe"></i><a href="#portfolio" class="portfolio-link"> Portfolio</a></li>
+
+                    <li><i class="fa-solid fa-briefcase"></i><a href="#services" class="services-link">Services</a></li>
+                    <li><i class="fa-solid fa-phone"></i><a href="#contact" class="contact-link">Contact</a></li>
+                </ul>
+            </div>          
+        </div>
     </div>
     <!-- main content end -->
     </div>
 
-    <div id="mobile" class="harmburger-menu">
-        <ul id="navbar" style="display: none;">
-            <li><i class="fa-solid fa-house"></i><a class="active home-link" href="#">Home</a> </li>
-
-            <li><i class="fa-solid fa-user"></i><a href="#About" class="about-link">About</a> </li>
-
-            <li><i class="fa-solid fa-globe"></i><a href="#portfolio" class="portfolio-link"> Portfolio</a></li>
-
-            <li><i class="fa-solid fa-briefcase"></i><a href="#services" class="services-link">Services</a></li>
-            <li><i class="fa-solid fa-phone"></i><a href="#contact" class="contact-link">Contact</a></li>
-        </ul>
    
-    </div>
     <!-- main container end -->
          <!-- start style switcher -->
          <div class="style-switcher">
@@ -643,102 +648,17 @@
                 <span class="color-5" onclick="setActiveStyle('color-5')"></span>
                 </div>
 
+                
          </div>
          <!-- end style switcher -->
     <!-- ================================================================= javascript ======================================== -->
 <script src="./script/jquery.js"></script>
+<script src="./script/script.js"></script>
 <script src="./script/style-switcher.js"></script>
 <script>
-    $('.home-link').click(()=>{
-        $('#About').addClass('hidden');
-        $('#services').addClass('hidden');
-        $('#portfolio').addClass('hidden');
-        $('#contact').addClass('hidden');
-        $('.home').removeClass('hidden');
-
-        $('.contact-link').removeClass('active');
-        $('.home-link').addClass('active');
-        $('.services-link').removeClass('active');
-        $('.portfolio-link').removeClass('active');
-        $('.about-link').removeClass('active');
-
-    });
-
-    $('.about-link').click(()=>{
-        $('.home').addClass('hidden');
-        $('#About').removeClass('hidden');
-        $('#services').addClass('hidden');
-        $('#portfolio').addClass('hidden');
-        $('#contact').addClass('hidden');
-
-        $('.contact-link').removeClass('active');
-        $('.home-link').removeClass('active');
-        $('.services-link').removeClass('active');
-        $('.portfolio-link').removeClass('active');
-        $('.about-link').addClass('active');
-    });
-
-    $('.portfolio-link').click(()=>{
-        $('.home').addClass('hidden');
-        $('#About').addClass('hidden');
-        $('#services').addClass('hidden');
-        $('#portfolio').removeClass('hidden');
-        $('#contact').addClass('hidden');
-
-        $('.contact-link').removeClass('active');
-        $('.home-link').removeClass('active');
-        $('.services-link').removeClass('active');
-        $('.portfolio-link').addClass('active');
-        $('.about-link').removeClass('active');
-    });
-
-    $('.services-link').click(()=>{
-        $('.home').addClass('hidden');
-        $('#About').addClass('hidden');
-        $('#services').removeClass('hidden');
-        $('#portfolio').addClass('hidden');
-        $('#contact').addClass('hidden');
-
-        $('.contact-link').removeClass('active');
-        $('.home-link').removeClass('active');
-        $('.services-link').addClass('active');
-        $('.portfolio-link').removeClass('active');
-        $('.about-link').removeClass('active');
-
-    });
-
-    $('.contact-link').click(()=>{
-        $('.home').addClass('hidden');
-        $('#About').addClass('hidden');
-        $('#services').addClass('hidden');
-        $('#portfolio').addClass('hidden');
-        $('#contact').removeClass('hidden');
-
-        $('.contact-link').addClass('active');
-        $('.home-link').removeClass('active');
-        $('.services-link').removeClass('active');
-        $('.portfolio-link').removeClass('active');
-        $('.about-link').removeClass('active');
-    });
-
-    $('.style-switcher .hamburger img').css({background:'red'});
-    $('.style-switcher .hamburger img').click(()=>{
-
-        if ($('#mobile').css({display:'none'})) {
-            $('#mobile').css({display:'flex'})            
-            
-        }else{
-            $('#mobile').css({background: 'red', display:'flex'});
-
-        }
-
-
-    });
-
-
-
-    
+   
 </script>
+
 <!-- <script src="./script/style-switcher.js"></script> -->
 
 

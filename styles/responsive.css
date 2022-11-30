@@ -61,8 +61,8 @@
 
 @media screen and (min-width: 1000px) {
     .home .me img {
-        display: flex;
-        margin-right: 2rem;
+        display: none;
+        margin-right: 5rem;
     }
 }
 
@@ -77,6 +77,7 @@
         flex: 0 0 90%;
         max-width: 90%;
         padding-left: 5%;
+        /* background-color: red; */
     }
 
     .section {
@@ -96,7 +97,7 @@
 
 
 /* About section */
-@media screen and (max-width:1200px) {
+@media screen and (max-width:100px) {
     .about .personal-info .about-flex .my-data {
         max-width: 45%;
         margin-left: 1.2rem;
@@ -195,12 +196,22 @@
 
 }
 
-@media screen and (width<500px) {
+@media screen and (width<600px) {
     .skills {
-        background: red;
+        /* background: red; */
         min-width: 100%;
         padding-left:2% ;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-transform:uppercase ;
+        /* position: relative; */
         
+    }
+    .skills h5{
+        margin-left:-40% ;
+        /* position: absolute; */
+ 
     }
 
     .about .personal-info .about-flex .image-loader .planet{
@@ -208,8 +219,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: -90px;
+        margin-left: -60%;
         padding: 0;
+        transition: all 0.7s ease-in-out
     }
 
     .planetEarth .loader{
@@ -418,9 +430,28 @@
 
     .contact .contact-info-item{
         margin-bottom: 6%;
-        margin-bottom: 1px solid var(--text-black-900);
+        /* border-bottom: 1px solid var(--text-black-900); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
+    h3.contact-title{
+        padding-left: 1%;
+    }
+    .contact .contact-info-item p,
+    .contact .contact-info-item h4,
+    form #name,
+    form #email ,
+    form #subject,
+    form #message
+     {
+        display: block;
+        min-width: 23rem;
+        width: 100%;
+
+    }
 
      .sectionNewsletter{
         display: flex;
@@ -432,36 +463,132 @@
     }
 
     .sectionNewsletter h1, h5{
-        width: 20rem;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        background-color: red;
         /* margin-left: -20%; */
 
     }
 
+    .sectionNewsletter h1, h5{
+        
+    }
+
     form{
         display: block;
+        width: 100%;
+        padding: 0;
     }
+
+   .newsletterDiv2 .form_btn{
+        /* margin-left: 20%; */
+        margin-top: -8%;
+        display: block;
+        /* max-width: 10rem !important; */
+
+    }
+
+    form #message {
+        margin-top: -5%;
+    }
+    
+    
     
 }
 
 
 
-@media screen and (max-width:899px) {
-    #mobile{
-        display: flex;
-        position: absolute;
-        background-color: red;
-        top: 0;
-        right: 0;
-        width: 60%;
-        z-index: 100;
-        background: url(../images/assets/bgIMG.png);
+@media screen and (max-width:900px) {
 
+    .mobile-navbar  {
+        position: fixed;
+        background-color: var(--text-black-700);
+        top: 0;
+        left: 0;
+        width: 50%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        min-height: 100vh;
+        padding: -90rem 0;
+        box-shadow: 0 0 20px var(--text-black-700);
+        /* background: url(../images/assets/creative-wallpaper-with-white-shapes.jpg); */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        z-index: 200;
+        height: fit-content;
+
+
+
+    }  
+    .mobile-navbar .navDiv {
+        position: relative;
+        margin: 0;
+        padding: 0;  
+        transition: all 3s ease-in-out;
 
     }
     
-    
+    .mobile-navbar .navDiv #navbar{
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+        transform: translateX(-25px);
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        margin: 40% 0 0 20%;
+        min-height: 100%;
+    }
+
+    .mobile-navbar .navDiv #navbar li a{
+        color: var(--bg-black-900);
+    }
+
+    #navbar li .active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088978;
+    position: absolute;
+    bottom: 10px;
+    left: 24px;
+    transition: 5s ease;
+}
+}
+
+
+@media screen and (width:280px) {
+    .contact .contact-info-item p,
+    .contact .contact-info-item h4,
+    form #name,
+    form #email ,
+    form #subject,
+    form #message
+     {
+        display: block;
+        min-width: 14rem;
+        width: 100%;
+
+    }
+
+    .newsletterDiv2 .form_btn{
+        margin-left: 15%;
+        /* margin-top: -8%; */
+        display: block;
+        /* max-width: 10rem !important; */
+
+    }
+
+    .sectionNewsletter h1{
+        font-size: 25px !important;
+    }
+
 }

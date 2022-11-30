@@ -35,3 +35,5 @@ yarn-error.log*
 
 #images
 logo/about.txt
+/styles/ionicons.min.css
+/styles/bootstrap.min.css

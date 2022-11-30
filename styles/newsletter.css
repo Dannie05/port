@@ -1,5 +1,5 @@
 .sectionNewsletter {
-    background: url(../images/features/pexels-photo-1010496.webp);
+    /* background: url(../images/features/pexels-photo-1010496.webp); */
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -7,6 +7,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 7%;
+    color: var(--text-black-700);
+
 }
 
 .newsletterDiv1 {
@@ -22,6 +24,7 @@
 .newsletterDiv1 h1 {
     text-align: center;
     font-size: 2.2em;
+    color: var(--skin-color);
 }
 
 .newsletterDiv1 h4 {
@@ -46,26 +49,22 @@ form{
     color: black;
 }
 form #name,
-#email {
-    width: 49%;
+#email ,
+form #subject {
+
+    width: 100%;
     padding: 15px;
     border-radius: 50px;
     margin-bottom: 2%;
 }
 
-form #subject {
-    width: 80%;
-    padding: 15px;
-    border-radius: 50px;
-    margin-left: 4%;
-    margin-bottom: 2%;
-}
+
 
 form #message {
-    width: 80%;
-    height: 90px;
-    padding: 1.5%;
+    width: 100%;
+    height: 15vh;
+    padding: 15px;
     border-radius: 10px;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     color: inherit;
 }

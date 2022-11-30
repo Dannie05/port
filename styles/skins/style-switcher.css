@@ -37,7 +37,8 @@
 }
 .style-switcher .style-switcher-toggler{
     top: 0;
-    background: var(--text-black-900);
+    /* background: var(--text-black-900); */
+    background: var(--skin-color);
 }
 .style-switcher .day-night{
     top: 55px;
@@ -46,7 +47,7 @@
 .style-switcher .day-night{
     /* background: var(--text-black-900); */
     /* background: red; */
-    background: var(--skin-color);
+    background: var(--text-black-700);
 }
 
 .style-switcher h4{
@@ -77,7 +78,7 @@
     background: #fa5b0f;
 }
 .style-switcher .color-3{
-    background: #37b182;
+    background: var(--signature-color);
 }
 .style-switcher .color-4{
     background: #1854b4;
@@ -104,6 +105,18 @@
     .style-switcher .hamburger {
         display: flex;
     }  
+        .hamburger-nav{
+            /* display: flex; */
+            position: fixed;
+            /* background-color: red; */
+            top: 20%;
+            right: 50px;
+            padding: 100px;
+            margin-left: 20rem;
     
-     
- }
+            width: 60%;
+            z-index: 100;
+            
+        }
+    }
+
