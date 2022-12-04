@@ -47,7 +47,7 @@
             <!-- <img class="logo" src="./logo/logo.png" alt="logo"> -->
             <div class="navDiv">
                 <ul id="navbar">
-                    <li><i class="fa-solid fa-house"></i><a class="active home-link" href="#">Home</a> </li>
+                    <li style="cursor: pointer;"><i class="fa-solid fa-house"></i><a class="active home-link" href="#">Home</a> </li>
 
                     <li><i class="fa-solid fa-user"></i><a href="#About" class="about-link">About</a> </li>
 
@@ -66,24 +66,41 @@
                     <div class="row">
                         <div class="home-info padding">
                             <div class="texts">
-                                <h3 class="hello">Hello, My name is <span class="name">DANIEL .O. NWOGU</span></h3>
-                                <h3 class="myProfession">I'm a <span class="typing">Web Designer</span></h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia amet provident iste
-                                    facilis numquam porro eligendi cupiditate blanditiis vitae! Perferendis harum
-                                    officiis
-                                    itaque accusantium! Eum, possimus aspernatur. Nulla, omnis et.
+                                <h3 class="hello">👋 Hello, I'm <span class="name">DANIEL</span></h3>
+                                <!-- <h3 class="myProfession">I'm a <span class="typing">Web Designer</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia amet
                                 </p>
                             </div>
 
                             <div class="indexHero">
-                                <a data-text="HIRE ME " href="">HIRE ME</a>
-                            </div>
-
+                                <a data-text="HIRE ME " href="#contact">HIRE ME</a>
+                            </div> -->
+                               
+                            <!-- image loader begins -->
                             <div class="me">
-                                <img src="./images/facebook/pexels-pixabay-247676.jpg" alt="user">
+                                <div class="planet planetEarth">
+                                    <div class="contain">
+                                        <div class="loader"><span></span></div>
+                                        <div class="earth"></div>
+                                    </div>
+                                </div> 
                             </div>
+                            <!-- image loader ends -->
+                            <!-- wait ooo!!! -->
+                            <div class="home-hero">
+                            <h3 class="myProfession">I'm a <span class="typing">Web Designer</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia amet
+                            </p>
                         </div>
-                    </div>
+                        </div>
+
+                        <div class="indexHero">
+                            <a data-text="HIRE ME " href="#contact">HIRE ME</a>
+                        </div>
+
+                            <!-- wait ooo!!! -->
+                        </div>
+                    <!-- </div> -->
                 </div>
             </section>
 
@@ -112,7 +129,7 @@
                         </div>
                     </div>
 
-                    <div class="image-loader-holder" style="background-color:purpe;">
+                    <div class="image-loader-holder">
                         <div class="personal-info padding">
                             <div class="about-flex">
                                 <div class="row flex-row my-data">
@@ -139,17 +156,32 @@
                                         <p>Company:&nbsp; <span>Verbum Networks, Enugu Nigeria </span></p>
                                     </div>
 
+                                    <div class="skill-icons flex-row my-data"></div>
+<style>
+     .skill-icons{
+        background-color: red;
+        /* margin-left: 10rem !important; */
+        position: relative;
+        width: 100%;
+        margin-left: 28% !important;
+        padding: 20%;
+        animation: iconToggle 6s 1 ease-in-out alternate-reverse forwards;
+        position: relative;
+        border-radius: 20px;
+        transition: all 3s ease;
+    }
+    @keyframes iconToggle {
+        0%{background: url(./images/assets/html.png) no-repeat;  background-size:cover ; background-position: center; left: 0px; top: 0px;}
 
-                                </div>
+        25%{background: url(./images/assets/css.png) no-repeat;  background-size:cover ; background-position: center; left: 200px; top: 0px;}  
 
-                                <div class="flex-row image-loader">
-                                    <div class="planet planetEarth">
-                                        <h1>Earth</h1>
-                                        <div class="loader-container">
-                                            <div class="loader"><span></span></div>
-                                            <div class="earth"></div>
-                                        </div>
-                                    </div>
+        50%{background: url(./images/assets/sass.png) no-repeat;  background-size:cover ; background-position: center; left: 200px; top: 200px; }  
+              
+        75%{background: url(./images/assets/javascript.png) no-repeat;  background-size:cover ; background-position: center; left: 0px; top: 200px;}   
+
+        100%{background: url(./images/assets/node.png) no-repeat;  background-size:cover ; background-position: center; left: 0px; top: 0px;}        
+    }
+</style>
                                 </div>
                             </div>
 
@@ -201,8 +233,6 @@
 
                             </div>
                         </div>
-
-
 
                     </div>
 
@@ -628,8 +658,8 @@
          <div class="style-switcher">
 
             <div class="hamburger s-icon ">
-                <!-- <i class="fas fa-cog fa-spin"></i> -->
-                <img src="./icon/index1.png" alt="">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <!-- <img src="./icon/index1.png" alt=""> -->
             </div>
             
             <div class="style-switcher-toggler s-icon">
@@ -656,7 +686,10 @@
 <script src="./script/script.js"></script>
 <script src="./script/style-switcher.js"></script>
 <script>
-   
+    $(document).load(()=>{
+        $('.home-info').css({display: 'none'});
+
+    });
 </script>
 
 <!-- <script src="./script/style-switcher.js"></script> -->

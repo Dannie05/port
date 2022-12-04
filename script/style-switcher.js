@@ -49,6 +49,7 @@ window.addEventListener("load", ()=>{
     document.querySelector('#services').classList.add('hidden');
     document.querySelector('#portfolio').classList.add('hidden');
     document.querySelector('#contact').classList.add('hidden');
+    
 
     if (document.body.classList.contains('dark')) 
     {
@@ -60,6 +61,11 @@ window.addEventListener("load", ()=>{
 
 
 });
+
+document.querySelector('.home').addEventListener("load", ()=>{
+    document.querySelector('.home-link').style.pointerEvents='none'
+});
+
 
 dayLight.addEventListener('click', ()=>{
     dayLight.querySelector("i").classList.add('fa-sun');

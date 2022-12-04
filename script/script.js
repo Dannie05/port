@@ -4,6 +4,7 @@
         $('#portfolio').addClass('hidden');
         $('#contact').addClass('hidden');
         $('.home').removeClass('hidden');
+        // $('.home').css({marginLeft:'3%', paddingLeft:'2%'});
 
         $('.contact-link').removeClass('active');
         $('.home-link').addClass('active');
@@ -70,8 +71,8 @@
         $('.about-link').removeClass('active');
     });
 
-    $('.style-switcher .hamburger img').css({background:'var(--skin-color)'});
-    $('.style-switcher .hamburger img').click(()=>{
+    $('.style-switcher .hamburger i').css({background:'var(--text-black-700)'});
+    $('.style-switcher .hamburger i').click(()=>{
         // $('.mobile-navbar').toggleClass('hidden');
         $('.mobile-navbar').slideToggle('#navbar');
     });
@@ -85,6 +86,8 @@
         $('.mobile-navbar').css({display: 'none'});
 
     });
+
+    
 
     // $('body').click(()=>{
     //     $('.mobile-navbar').css({display: 'none'});
