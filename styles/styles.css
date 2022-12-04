@@ -926,6 +926,9 @@ h3.hello span {
     line-height: 2;
 
 }
+.contact .contact-info-item p a {
+    color: var(--text-black-700) !important;
+}
 
 /* newsletter */
 .newsletter {
