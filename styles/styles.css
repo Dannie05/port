@@ -797,6 +797,10 @@ h3.hello span {
     line-height: 2;
     color: #000;
 }
+.service .service-item .service-item-inner p.color-contrast,
+.service .service-item .service-item-inner h4.color-contrast {
+    color: var(--bg-black-900);
+}
 
 
 
@@ -928,6 +932,7 @@ h3.hello span {
 }
 .contact .contact-info-item p a {
     color: var(--text-black-700) !important;
+    text-decoration: none;
 }
 
 /* newsletter */
