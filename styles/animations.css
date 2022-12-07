@@ -103,7 +103,7 @@ body{
     position: absolute;
     width: 380px;
     height: 380px;
-    background: url(../images/assets/facebook.jpg);
+    background: url(../images/assets/developer.jpg);
     border-radius: 50%;
     background-size: cover;
     background-position: center;
@@ -171,7 +171,7 @@ body{
         overflow: hidden;
         text-align: center;
         margin-left: -1.7rem !important;
-        margin: -11rem 0 !important;
+        margin: -14.9rem 0 !important;
     }
  }
 
@@ -187,7 +187,7 @@ body{
         overflow: hidden;
         text-align: center;
         margin-left: -1.7rem !important;
-        margin: -12.9rem 0 !important;
+        margin: -16.5rem 0 !important;
     }
  }
 
@@ -204,14 +204,14 @@ body{
         text-align: center;
         /* margin-left: -300.7rem !important ; */
         left: -50px !important;
-        margin: -12.9rem 0 !important;
+        margin: -11.9rem 0 !important;
     }
 
     .earth{
         position: absolute;
         width: 13rem !important;
         height:13rem !important;
-        background: url(../images/assets/facebook.jpg);
+        background: url(../images/assets/developer.jpg);
         border-radius: 50%;
         background-size: cover;
         background-position: center;
@@ -331,7 +331,7 @@ body{
         position: absolute;
         width: 21rem;
         height: 21rem;
-        background: url(../images/assets/facebook.jpg);
+        background: url(../images/assets/developer.jpg);
         border-radius: 50%;
         background-size: cover;
         background-position: center;
@@ -410,7 +410,7 @@ body{
     10%,
     100% {
         width: 0;
-        color: var(--skin-color);
+        color: var(--signature-color);
         font-weight: 800;
         font-size: 2rem;
         font-family: sourcesans;
